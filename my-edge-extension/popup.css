@@ -1,0 +1,141 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    }
+    
+    .container {
+    width: 500px;
+    padding: 20px;
+    }
+    
+    h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #0078d4;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    }
+    
+    h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #0078d4;
+    }
+    
+    .section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    }
+    
+    select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 14px;
+    box-sizing: border-box;
+    }
+    
+    textarea {
+    height: 120px;
+    resize: vertical;
+    }
+    
+    .strategy-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 10px;
+    }
+    
+    .strategy-options label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    }
+    
+    .strategy-options input {
+    margin-right: 8px;
+    }
+    
+    .buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+    }
+    
+    button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    flex-grow: 1;
+    transition: background-color 0.2s;
+    }
+    
+    button:hover {
+    background-color: #005a9e;
+    }
+    
+    .result-container {
+    white-space: pre-wrap;
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 4px;
+    font-family: 'Consolas', monospace;
+    font-size: 13px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    line-height: 1.5;
+    }
+    
+    .templates-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+    }
+    
+    .template-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    }
+    
+    .template-name {
+    font-weight: bold;
+    font-size: 14px;
+    }
+    
+    .template-actions {
+    display: flex;
+    gap: 5px;
+    }
+    
+    .template-actions button {
+    padding: 5px 8px;
+    font-size: 12px;
+    }
+    
+    .result-section {
+    max-height: 300px;
+    overflow-y: auto;
+    }
